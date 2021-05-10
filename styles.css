@@ -141,12 +141,71 @@ html {
 body {
   width: 100%;
   max-width: 750px;
+  margin: 0 auto;
+  background: url(image/code.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }
 
-header,
+#title {
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 0 0.5em 0;
+}
+
+#description {
+  font-size: 1.125rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.2rem;
+  width: 80%;
+  background-color: aqua;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.wrapper {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+#role,
+#feature,
+#comments,
+#submit {
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  padding: 0.5em 0;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+label {
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+.check {
+  padding-bottom: 0;
+}
+
+.question {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+.comment {
+  margin: 1em 0 0.2em 0;
+}
+
+#submit {
+  margin-top: 1em;
 }
