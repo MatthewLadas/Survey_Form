@@ -146,6 +146,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
+  background-attachment: fixed;
 }
 
 #title {
@@ -168,9 +169,6 @@ form {
   background-color: aqua;
   padding: 2em;
   margin: 0 auto;
-}
-
-.wrapper {
 }
 
 input[type="text"],
