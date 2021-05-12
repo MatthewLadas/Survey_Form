@@ -219,13 +219,14 @@ label {
 }
 
 #submit {
-  margin-top: 1em;
+  margin-top: 2em;
+  background: linear-gradient(#001424, #02609b);
+  color: #fff;
 }
 
 #submit:hover {
-  background-color: goldenrod;
+  background: #001424;
   color: #fff;
   transition: all 0.5s ease-in-out;
+  box-shadow: 5px 5px 8px #0d94e5;
 }
-
-/* goldenrod on button and attribute selector for placeholder */
