@@ -194,6 +194,12 @@ input[type="number"],
   border-radius: 5px;
 }
 
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  padding: 0 0.5em;
+}
+
 label {
   display: inline-block;
   font-size: 1.125rem;
@@ -214,6 +220,12 @@ label {
 
 #submit {
   margin-top: 1em;
+}
+
+#submit:hover {
+  background-color: goldenrod;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
 }
 
 /* goldenrod on button and attribute selector for placeholder */
